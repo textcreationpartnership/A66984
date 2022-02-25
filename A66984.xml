@@ -1,0 +1,436 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached before the Right Honorable the Lord Mayor and Aldermen of the city of London at the Guild-Hall Chappel October 26, 1679 by Benjamin Woodroffe ...</title>
+            <author>Woodroffe, Benjamin, 1638-1711.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 53 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A66984</idno>
+            <idno type="STC">Wing W3468</idno>
+            <idno type="STC">ESTC R22688</idno>
+            <idno type="EEBO-CITATION">12743897</idno>
+            <idno type="OCLC">ocm 12743897</idno>
+            <idno type="VID">93187</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A66984)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93187)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 994:28)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached before the Right Honorable the Lord Mayor and Aldermen of the city of London at the Guild-Hall Chappel October 26, 1679 by Benjamin Woodroffe ...</title>
+                  <author>Woodroffe, Benjamin, 1638-1711.</author>
+               </titleStmt>
+               <extent>[6], 30 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by M. Clark, for Walter Kettilby ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1679.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="order">
+            <pb facs="tcp:93187:1"/>
+            <opener>
+               <signed>Edwards Mayor.</signed>
+            </opener>
+            <p>Curia Special. tent. in Feſto Sanctorum <hi>Simonis</hi> &amp; <hi>Judae,</hi> 28. die <hi>Octobris,</hi> 1679. Anno<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Regni Regis Caroli Se<g ref="char:EOLhyphen"/>cundi, <hi>Angliae,</hi> &amp;c. xxxi.</p>
+            <p>THis CO<g ref="char:V">Ʋ</g>RT doth deſire Dr. <hi>Wood<g ref="char:EOLhyphen"/>roffe</hi> to Print his Sermon Preached at the <hi>Guild-Hall</hi> Chappel, on Sunday laſt, before the Lord Mayor and Aldermen of this City.</p>
+            <closer>
+               <signed>Wagſtaffe.</signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:93187:1"/>
+            <p>A SERMON Preached before the RIGHT HONORABLE THE Lord Mayor, AND ALDERMEN of the City of London, AT THE <hi>G<g ref="char:V">Ʋ</g>ILD-HALL</hi> Chappel, <hi>October</hi> 26. 1679.</p>
+            <p>BY <hi>BENJAMIN WOODROFFE,</hi> D. D. Canon of Chriſt-Church in <hi>Oxford,</hi> and Chaplain in Ordinary to His Majeſty.</p>
+            <p>
+               <hi>LONDON:</hi> Printed by M. <hi>Clark,</hi> for <hi>Walter Kettilby,</hi> at the Biſhops Head in St. <hi>Pauls</hi> Church-Yard. 1679.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:93187:2"/>
+            <pb facs="tcp:93187:2"/>
+            <head>To the Right Honourable Sir <hi>JAMES EDWARDS</hi> Lord Mayor of <hi>LONDON,</hi> And to the Court of ALDERMEN.</head>
+            <opener>
+               <salute>Right Honourable,</salute>
+            </opener>
+            <p>IF you ſuffer not in your Judgment by commanding the following Diſcourſe to be made publick, I am very well ſatisfied, I cannot in my Obedience, it being the <hi>beſt Application</hi> of any <hi>Sermon,</hi> next to that of the <hi>Hearers practice,</hi> to be inforced by ſo <hi>good Autho<g ref="char:EOLhyphen"/>rity;</hi> Eſpecially where the chief deſign of what is deliver'd in it, is but to diſcover ſome of thoſe preſent <hi>Epidemick Diſtempers of the</hi> Nation, for which in your <hi>wiſe Counſels,</hi> you have allready <hi>preſcribed</hi> ſuch <hi>wholſom Remedies;</hi> ſo that in what the <hi>Preacher</hi> is moſt <hi>earneſt</hi> to be heard, 'tis only where you have been ſo before him; I mean, as in your timely diſcountenancing thoſe <hi>men of evil deſigns,</hi> who matter not what name they make uſe of, no not, though it be that of the beſt Religion, the Re<g ref="char:EOLhyphen"/>form'd Proteſtant Faith it ſelf, to bring us into diſorder and confuſion; ſo in your Care to reſtrain that exorbitant Li<g ref="char:EOLhyphen"/>cence
+<pb facs="tcp:93187:3"/> of the Preſs, ſo much of late abuſed to the purpoſes of Sedition and Rebellion, as if what was the Invention of a Soldier at firſt (for ſo Printing was) muſt have ſo much of its Author, as to be ſtill ſounding the Alarm to the Public: But (God be thanked) you have not been wanting to do your Parts to prevent all its miſchiefs, you have not been wanting in your Wiſdoms to divert the Ruin, on the Brink whereof we have ſo long ſtood; you have hi<g ref="char:EOLhyphen"/>therto been the <hi>Shield</hi> to defend us (let me uſe the words of my Context) againſt <hi>the Bow the Wicked had bent, a<g ref="char:EOLhyphen"/>gainſt the Arrow they had made ready on the ſtring:</hi> Nor need we fear <hi>the deſtroying the Foundations,</hi> as long as it ſhall pleaſe God in his good Providence to keep <hi>this great and Royal City upon a firm bottom;</hi> that is, as long as you ſhall go on to Execute the good Laws, under which to the dread of our Enemies, and the Envy of all round about us, we may ſo ſafely dwell: As long as you ſhall continue to uphold the Eſtabliſht Religion, which in ſo critical a time you have ſo worthily avowed: Let but this <hi>Jeruſalem,</hi> be <hi>as a City that is</hi> thus Compact to<g ref="char:EOLhyphen"/>gether, and at Unity within itſelf: Do but you go on to lead the Example of Loyalty to the moſt Gracious and beſt of Princes, and of Obedience to his and Gods righteous Commands, the Reverence you pay the Laws, will be re<g ref="char:EOLhyphen"/>turn'd in the Obedience due to your <hi>own Government,</hi> the Care you have for the true Religion, repaid in the Care God will have of you: Nor is it, I truſt, a mean in<g ref="char:EOLhyphen"/>ſtance of this his Care, that, (as 'tis ſo frequently applied to the Judges he raiſed up to deliver his own people) thoſe
+<pb facs="tcp:93187:3"/> whom you call out to it, ſeem to be ſuch on whom <hi>His Spirit is</hi> to carry them through their weighty charge: 'Tis your Honour, 'Tis your Happineſs that your own Body ſtill furniſhes you with Members worthy ſo great imployments, That as in this nick of time, wherein I am commanded this Duty, If the ſame Perſon whoſe name is prefixt to the <hi>Order</hi> continues not in the <hi>Office</hi> to ſee it Executed, how<g ref="char:EOLhyphen"/>ever the <hi>Office</hi> and <hi>Government</hi> ſtill ſurvive the ſame; and <hi>one Excellent Magiſtrate</hi> lays not down the <hi>Sword,</hi> but to deliver it up to Another, who will not fail to wield it in Defence of the <hi>ſame Laws</hi> and the <hi>ſame Reli<g ref="char:EOLhyphen"/>gion:</hi> That God Almighty would ſtrengthen your hands, and hearts in both, ſhall be the dutiful Prayer of,</p>
+            <closer>
+               <salute>Right Honourable,</salute> 
+               <signed>Your moſt humble and Obedient Servant, Benjamin Woodroffe.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:93187:4"/>
+            <pb n="1" facs="tcp:93187:4"/>
+            <head>A SERMON ON</head>
+            <epigraph>
+               <bibl>Psalm xi. 3.</bibl>
+               <q>If the Foundations be deſtroyed, what can the Righteous do?</q>
+            </epigraph>
+            <p>THE <hi>Pſalm</hi> whereof theſe words are a part is a ſhort, but full de<g ref="char:EOLhyphen"/>ſcription of the Treatment good men are to expect from the wicked in this world; and that is, to be the mark of all their malice; and cruelty: as a Bird pur<g ref="char:EOLhyphen"/>ſued by the Fowler, to be chaſed <hi>into the mountains, verſe</hi> 1. and as the Metaphor is carried on <hi>verſe 2. to have the bow ſtill bent a<g ref="char:EOLhyphen"/>gainſt them, the arrow made ready upon the ſtring;</hi> and that if poſſible, to wound <hi>them in the very ſoul, verſe 1. ſo to ſhoot privily at the up<g ref="char:EOLhyphen"/>right in heart,</hi> as to aim the blow at that
+<pb n="2" facs="tcp:93187:5"/> Uprightneſs, that Integrity, and Inno<g ref="char:EOLhyphen"/>cence, which ſhould ſupport them againſt other injuries.</p>
+            <p>According to which deſign of theirs, the Holy Ghoſt elſewhere deſcribes them <hi>travelling with iniquity, and conceiving miſ<g ref="char:EOLhyphen"/>chief,</hi> in the ſeventh <hi>Pſalm</hi> at the 14. <hi>verſe,</hi> 'tis the Birth which their Brain and Imagi<g ref="char:EOLhyphen"/>nation is in pain to bring forth: <hi>They deviſe it on their beds, Pſalm</hi> xxxvi. 4. and as tis <hi>Proverbs</hi> iv. 16. <hi>Sleep not there, except they bring it to paſs: tis in their hands,</hi> Pſal. xxvi. 10. <hi>Under their Tongues,</hi> Pſalm x. 7. <hi>and in their hearts,</hi> Pſalm. xxviii. 3. <hi>'tis what they ſport to do,</hi> Proverbs x. 23. <hi>and boaſt that they are mighty in it,</hi> Pſalm lii. 1. Little matter<g ref="char:EOLhyphen"/>ing what deſolations they make in the Earth; How they put the whole courſe of Nature out of Order; what <hi>Foundations they deſtroy,</hi> ſo they may but involve the Righteous in the ſame ruin with them<g ref="char:EOLhyphen"/>ſelves.</p>
+            <p>And where this is the ſad ſtate of Af<g ref="char:EOLhyphen"/>fairs (as, God knows, 'tis not the fault of the Devil, and his wicked Inſtruments, if it be not every where ſo) as it follows in the Text, <hi>What can the Righteous do?</hi> What defence and protection can he hope for,
+<pb n="3" facs="tcp:93187:5"/> whom the Innocence, which ſhould be his ſafeguard, thus expoſes to the greateſt dangers? Yes, the very miſchief inten<g ref="char:EOLhyphen"/>ded againſt him, ought to be his ſupport; For, as 'tis againſt <hi>his ſoul,</hi> that impreg<g ref="char:EOLhyphen"/>nable part of the good man, which no malice, no violence can reach; As, 'tis a<g ref="char:EOLhyphen"/>gainſt that <hi>Heart,</hi> and the uprightneſs of it, at <hi>they which privily ſhoot,</hi> whoſe <hi>Security</hi> as well as <hi>Religion</hi> it is, to put <hi>its Truſt in the Lord,</hi> verſe 1. So, 'tis not without the good Providence of Him, in whom he Truſts; not without his tendereſt Care, and Affe<g ref="char:EOLhyphen"/>ction, who is <hi>too Holy, too Powerful, too Wiſe, too Juſt</hi> to permit his ruin; which is the ſum of the latter part of the <hi>Pſalm:</hi> From all which put together, the Propoſi<g ref="char:EOLhyphen"/>tions we ſhall raiſe to be inſiſted on ſhall be theſe two.</p>
+            <p n="1">1. That in the miſchiefs the wicked deſign againſt the Righteous, their great aim and buſineſs is to <hi>deſtroy all Foundations.</hi>
+            </p>
+            <p n="2">2. That in theſe deſigns of the Wick<g ref="char:EOLhyphen"/>ed againſt the Righteous, all that the Righteous can do, is to <hi>truſt in God.</hi>
+            </p>
+            <p>1. That in the miſchiefs the wicked de<g ref="char:EOLhyphen"/>ſign againſt the Righteous, their great aim and buſineſs is <hi>to deſtroy all Foundations.</hi>
+            </p>
+            <pb n="4" facs="tcp:93187:6"/>
+            <p>And here we ſhall have to conſider,</p>
+            <p n="1">1. What the <hi>Foundations</hi> are the wicked are ſo ſolicitous to deſtroy.</p>
+            <p n="2">2. What the Intereſt, and true grounds are, which move them to ſuch attempts.</p>
+            <p n="3">3. With ſome reflections on their great folly in ſuch their deſigns.</p>
+            <p>1. As to what the <hi>Foundations</hi> are the Wicked are ſo ſolicitous <hi>to deſtroy;</hi> what can <hi>theſe</hi> be, but the <hi>Foundations,</hi> as I may ſay, which would otherwiſe <hi>deſtroy</hi> them; and thoſe are, whatever it is, on which is built the <hi>Stability</hi> either of <hi>Church,</hi> or <hi>State:</hi>
+            </p>
+            <p>Such are, with reſpect to the <hi>One,</hi> all <hi>Civil Government,</hi> and the <hi>Laws</hi> by it En<g ref="char:EOLhyphen"/>acted; with reſpect to the <hi>Other,</hi> the <hi>Prin<g ref="char:EOLhyphen"/>ciples of Faith and true Religion.</hi>
+            </p>
+            <p>And very well may <hi>theſe</hi> be called <hi>Foun<g ref="char:EOLhyphen"/>dations,</hi> becauſe, what <hi>Foundations</hi> are to any <hi>Fabric,</hi> by upholding, and ſecuring it from becoming a Ruinous, and Diſ<g ref="char:EOLhyphen"/>ordered Heap, that are <hi>theſe</hi> with refe<g ref="char:EOLhyphen"/>rence to <hi>Human Society,</hi> as ſerving to ſup<g ref="char:EOLhyphen"/>port the ſeveral Members, and parts of it, in a <hi>Settled, Regular,</hi> and <hi>Eſtabliſht depen<g ref="char:EOLhyphen"/>dence</hi> on each other.</p>
+            <pb n="5" facs="tcp:93187:6"/>
+            <p>'Tis by <hi>Government, Good Laws,</hi> and <hi>Religion</hi> that this <hi>Rational Building</hi> is held. up: That the <hi>Whole</hi> world is preſerved from falling back into a worſe <hi>diſorder, and confuſion,</hi> than that <hi>Natural Chaos,</hi> that <hi>void formleſs</hi> State was, out of which 'twas<note place="margin">Geneſ. i. 2.</note> at firſt taken.</p>
+            <p>Hence the <hi>Royal Pſalmiſt</hi> reflecting on the <hi>Corruptions,</hi> which in his time had pre<g ref="char:EOLhyphen"/>vailed in <hi>Church,</hi> and <hi>State,</hi> When <hi>He</hi> was put by the exerciſe of his juſt Authority, ſpeaketh <hi>of them,</hi> as of what tended to the utter <hi>diſſolution of the Earth, and the Inhabi<g ref="char:EOLhyphen"/>tants thereof,</hi> Pſalm lxxv. 3. and <hi>of Him<g ref="char:EOLhyphen"/>ſelf,</hi> to whom the Care of their <hi>Laws,</hi> and <hi>Religion</hi> was committed, as <hi>bearing up the Pillars thereof.</hi>
+            </p>
+            <p>And in the lxxxix. <hi>Pſalm</hi> 14. he tells us, ſpeaking of God himſelf, that <hi>Judgment and Juſtice are the habitation of his Throne</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſays the Hebrew, <hi>It's Foundation or Eſtabliſhment.</hi>
+            </p>
+            <p>So that we ſee, what it is, we are to underſtand by <hi>Foundations,</hi> namely thoſe<note place="margin">Hieronymus <hi>Leges inter<g ref="char:EOLhyphen"/>pretatur, quas ait diſſipatas tum fuiſſe Tyrannide Saulis.</hi>
+               </note> 
+               <hi>Righteous Laws,</hi> which are neceſſary to ſupport the <hi>Government</hi> of <hi>God</hi> and <hi>Man,</hi> and ſerve to hold the ſeveral parts of the <hi>Rational Creation</hi> from ſtarting aſide from
+<pb n="6" facs="tcp:93187:7"/> the <hi>Square and Rule,</hi> by which they ſub<g ref="char:EOLhyphen"/>ſiſt, the next thing we have to conſider, is</p>
+            <p>2. What the Intereſt and true Grounds are which move the <hi>wicked</hi> to their at<g ref="char:EOLhyphen"/>tempts againſt the <hi>Righteous;</hi> and that is, nothing elſe but their <hi>being wicked,</hi> i. e. Thoſe diſſolute, ungovern'd wretches, who can themſelves ſet no limits to the Extravagancies of their ill Life, and are ſo heinouſly offended, that the Laws do it for them; That <hi>Theſe</hi> are the <hi>Hook</hi> put in<g ref="char:EOLhyphen"/>to the Noſe of the Violent and Oppreſſor: the <hi>Bridle</hi> to check the Luſt and Vices of the Intemperate and Unchaſt: of the Backbiter and Reviler. How doth it grieve them that Authority hath ſet thoſe <hi>Bounds,</hi> and <hi>Landmarks</hi> to the <hi>Property</hi> of their Neighbour, which the unjuſt cannot remove without invading his own quiet? That there is that <hi>Yoke</hi> on the Neck of the <hi>Sons of Belial,</hi> which will gall the Diſobe<g ref="char:EOLhyphen"/>dient and Rebellious in all their ſtrug<g ref="char:EOLhyphen"/>glings againſt it? That to reſiſt the <hi>Scep<g ref="char:EOLhyphen"/>ter</hi> their Lawful Soveraign holds over them, is but to turn it into a <hi>Rod of Iron.</hi>
+            </p>
+            <pb n="7" facs="tcp:93187:7"/>
+            <p>And as in <hi>Civil Matters,</hi> ſo in <hi>Matters of Religion,</hi> How are <hi>theſe the unacceptable Re<g ref="char:EOLhyphen"/>membrances of God,</hi> and <hi>the ſervice</hi> due to him, and in the neglect thereof, of a <hi>day of Reckoning;</hi> of that <hi>fearful expectation of Judgment,</hi> which is always ſhaking <hi>the Rod over them?</hi> This is that, which makes them ſo much concerned to <hi>deſtroy theſe Foundations,</hi> at once to quit themſelves of <hi>thoſe Fetters</hi> which not only tye their <hi>hands from</hi> outward wrongs, but what is much ſeverer, <hi>bind</hi> up their <hi>minds</hi> too, So per<g ref="char:EOLhyphen"/>plex and intangle their Conſciences, that they can have no comfort, no free<g ref="char:EOLhyphen"/>dom in their moſt proſperous Miſchiefs.</p>
+            <p>Alas could they but once caſt off <hi>theſe cords from them, and break theſe Bonds aſun<g ref="char:EOLhyphen"/>der,</hi> Pſalm ii. 3. Were there no <hi>heir of re<g ref="char:EOLhyphen"/>ſtraint</hi> as the Magiſtrate is ſtiled <hi>Judg.</hi> xviii. 7. <hi>No King in</hi> Iſrael <hi>to hinder every man from doing that which was right in his own Eyes, Judges</hi> xvii. 6. None to curb the hu<g ref="char:EOLhyphen"/>mour, or fury of the multitude: Might they but have the pleaſure to ruin them<g ref="char:EOLhyphen"/>ſelves and others without controul, what a happy <hi>Liberty of Conſcience</hi> were this to theſe men?</p>
+            <pb n="8" facs="tcp:93187:8"/>
+            <p>This, 'tis true, is what wicked men would fain be at, and without which they cannot hope to compaſs their miſchievous deſigns againſt the Righteous: Foraſmuch as 'tis for the <hi>ſafety</hi> of ſuch that all <hi>Laws</hi> are made, in their <hi>defence,</hi> that <hi>Religion inforces</hi> them. And how have they in all Ages laboured to root out the Principles of <hi>both?</hi> How Zealous have they been to quarrel at the moſt Prudent, and Sober Decrees of their <hi>Superiors,</hi> and what is much more, at his Decrees who is <hi>higher than the high<g ref="char:EOLhyphen"/>eſt?</hi>
+            </p>
+            <p>What <hi>Leviathans</hi> have there been ſtill to riſe up againſt God, and his Provi<g ref="char:EOLhyphen"/>dence? What endeavours either wholly to efface, or at leaſt corrupt the Notions, which are implanted in the minds of Men, of the Deity, and his Government?</p>
+            <p>How hath Religion too been brought in to ſerve a purpoſe, and the very <hi>Liberty of the Goſpel</hi> corruptly applied to maintain <hi>Schiſm</hi> and <hi>Rebellion?</hi>
+            </p>
+            <p>Nay the very <hi>Spiritual</hi> part of Chriſti<g ref="char:EOLhyphen"/>anity, the <hi>worſhipping God in Truth,</hi> i. e. in the heart and inward man, made uſe of by the <hi>Enthuſiaſt,</hi> and <hi>Fanatick</hi> to diſ<g ref="char:EOLhyphen"/>charge them from all Conſcience of their
+<pb n="9" facs="tcp:93187:8"/> Duty? And can there be any <hi>groſſer Scan<g ref="char:EOLhyphen"/>dal</hi> caſt upon the <hi>Goſpel,</hi> than to make it thus contrary to <hi>the Law!</hi>
+            </p>
+            <p>Is there any greater <hi>indignity</hi> can be of<g ref="char:EOLhyphen"/>fered to our <hi>good Maſter,</hi> who was him<g ref="char:EOLhyphen"/>ſelf ſo obſervant of all the <hi>Laws of his Na<g ref="char:EOLhyphen"/>tion,</hi> ſo tender of his Obedience to the <hi>Ma<g ref="char:EOLhyphen"/>giſtrate,</hi> as by a <hi>Miracle</hi> to pay <hi>Tribute to Ce<g ref="char:EOLhyphen"/>ſar?</hi>
+               <note place="margin">Matth. xvii. 27. Rom. xiii. 1. 1 Pet. ii. 17. 2 Pet. ii. 10. Jude 8. Prover. viii. 15.</note> and hath by <hi>himſelf,</hi> and his <hi>Apoſtles</hi> ſo ſtrictly injoined ſubjection to the <hi>higher Powers,</hi> than, that either he <hi>by whom Kings Reign, and Princes decree Juſtice,</hi> or his Re<g ref="char:EOLhyphen"/>ligion, ſhould be traduced as deſtructive of both?</p>
+            <p>And 'tis a reproach I confeſs, which ſticks on ſome who call themſelves by his name, I would to God, thoſe, many of them, who in ſhew, and outward appear<g ref="char:EOLhyphen"/>ance run out ſo much in their Zeal againſt them, were not their greateſt <hi>Factors:</hi> God forbid, I ſhould judg any man, but let every one lay his hand on his <hi>heart,</hi> and ſeriouſly conſider in his own Conſcience, whether the <hi>Heats,</hi> and <hi>Diviſions,</hi> the <hi>Jea<g ref="char:EOLhyphen"/>louſies,</hi> and <hi>Heart-burnings,</hi> which are at preſent ſo much among us, do not moſt effectually carry on <hi>their work:</hi> If the wicked, our Enemies, <hi>have bent the bow,
+<pb n="10" facs="tcp:93187:9"/> and made ready the arrow upon the ſtring,</hi> as 'tis in the context, are not they who pro<g ref="char:EOLhyphen"/>mote <hi>theſe,</hi> the men who have diſcharged it for them, have ſhot out the <hi>others arrows,</hi> in their <hi>bitter words?</hi>
+               <note place="margin">Pſal. lxiv. 3.</note>
+            </p>
+            <p>'Twas the complaint of the Prophet <hi>Jeremiah,</hi> Chapter xx. verſe 5. <hi>I have heard the defaming of many: Fear on every ſide, report ſay they, and we will report:</hi> I wiſh our Times did not furniſh us with too ma<g ref="char:EOLhyphen"/>ny inſtances of this nature, and that in thoſe men, who do not only as it there follows <hi>watch for,</hi> but are ready to make the <hi>Halting</hi> of the Righteous; Thoſe, what<g ref="char:EOLhyphen"/>ever they ſay, who ſtrike at the very <hi>Foun<g ref="char:EOLhyphen"/>dations,</hi> whoſe greateſt Joy 'twould be to ſee the Nation bereft of the <hi>Security of her Laws,</hi> and the <hi>Comforts of her Religion:</hi> On<g ref="char:EOLhyphen"/>ly I cannot but rejoice too, as <hi>all good men</hi> muſt, that in ſuch Times as theſe, where<g ref="char:EOLhyphen"/>in <hi>to be open,</hi> and <hi>plaindealing,</hi> to <hi>dare to love,</hi> and <hi>vindicate Truth,</hi> is to expoſe ones ſelf to the Calumny of every <hi>Scurrilous Li<g ref="char:EOLhyphen"/>beller,</hi> I, and all good men cannot but rejoice in our hearts, I ſpeak it to the Honour of this <hi>great and Royal City, and the good and wiſe Government thereof,</hi> that like what is given in the <hi>Character of the heavenly</hi> Jeruſalem,
+<pb n="11" facs="tcp:93187:9"/> (and may <hi>Jeruſalem,</hi> the City where <hi>they ſhall ſee Peace,</hi> be always its name) that, I ſay, like what is given in the <hi>Character of the heavenly</hi> Jeruſalem, you have made it your ſingular Care, that <hi>whoſoever loveth and maketh a lye,</hi> barking, ſnarling wretches as they are, ſhould <hi>be ſhut out with Dogs.</hi> And may you<note place="margin">Order a<g ref="char:EOLhyphen"/>gainſt Hawkers, <hi>Septemb.</hi> 7. 1679. See the Right Ho<g ref="char:EOLhyphen"/>nourable Sir <hi>Robert Clayton</hi>'s Speech, Lord Mayor E<g ref="char:EOLhyphen"/>lect, and the Right Honoura<g ref="char:EOLhyphen"/>ble Sir <hi>James Ed<g ref="char:EOLhyphen"/>wards</hi> Speech, <hi>Septem.</hi> 29. 1679.</note> go on ſtill to juſtifie your Authority, the <hi>Au<g ref="char:EOLhyphen"/>thority of that Law, which cannot but protect them, who make it their Rule:</hi> Never may thoſe, who have ill will at <hi>Zion,</hi> be ſo proſperous as to ſee the day, when you either want <hi>Power,</hi> or <hi>Will</hi> to execute it. Never may the <hi>Religion</hi> we profeſs, and its <hi>Foundations</hi> be ſo far deſtroyed as to let <hi>Anarchy,</hi> and <hi>Confuſion</hi> be the badg of the <hi>Proteſtant.</hi> No: Let it be the <hi>Reproach,</hi> and the <hi>ſingle reproach of our Enemies,</hi> that 'tis only in throwing down <hi>Foundations,</hi> that their <hi>Cauſe</hi> can proſper: in Subverting all the <hi>Laws</hi> of God, and Man, all the <hi>Principles of true Chriſtian Religion,</hi> that they muſt ever hope to advance <hi>their Catholick Faith.</hi>
+            </p>
+            <p>For what elſe is their <hi>unbounded Primacy</hi> of the Pope, but the overthrowing all <note n="*" place="margin">
+                  <p>
+                     <hi>Clerici legibus civilibus, ut ſunt Leges Principum, non tenentur obligatione aliquâ corre<g ref="char:EOLhyphen"/>ctivâ, ſed ſolum directivâ. Non poſſunt tamen à Magiſtratu politico puniri, nec ullo modo trahi ad Magiſtratus Secularis Tribunal.</hi> Bellarm. de Cleric. l. 1.</p>
+                  <p>
+                     <hi>A Clericis, qui jure ſubjectionis exempti ſunt, propriè quidem Majeſta<g ref="char:EOLhyphen"/>tem non laedi. Eudaemon Jeſuita</hi> Apolog. c. 34. p. 110. <hi>Clerici Rebellionem non eſſe crimen laeſae Majeſtatis, quia non eſt ſubditus Regi. Zimanch. Aphoriſ. de Conſ.</hi>
+                  </p>
+                  <p>
+                     <hi>Juramentum Fidelitatis ne ſuſcipi quidem poſſe à Papiſtis noſtris ſine Fidei Catholicae abnegatione.</hi> Bellarm. Reſp. ad Apolog. <hi>pro juram. Fidel.</hi>
+                  </p>
+                  <p>
+                     <hi>De Fide eertum eſſe, quemcunque Principem Chriſtianum, ſi à Religione Catholicâ manifeſto deflexerit, &amp; alios avocare voluerit, excidere ſtatim om<g ref="char:EOLhyphen"/>ni poteſtate, &amp; dignitate, idque ante prolatam Papae ſententiam: poſſeque &amp; debere ſubditos ſi vires habeant, iſtiuſmodi Haereticum ex hominum Chri<g ref="char:EOLhyphen"/>ſtianorum Dominatu ejicere.</hi> Philopat. Sect. 2. p. 109. <hi>&amp; Suarez in Libro de Cenſuris,</hi> Diſp. 15. Sect. 6. p. 262. hath many things to the ſame ſenſe.</p>
+                  <p>
+                     <hi>Non licere Chriſtianis tolerare Regem Haereticum, ſi ille conetur ſubditos ad ſuam haereſin protrahere,</hi> Bellarm, de Rom. Pontif. 5. 7.</p>
+                  <p>
+                     <hi>Sed &amp; Chriſtiani Principes, qui diu in Eccleſiaſticam poteſtatem tyran<g ref="char:EOLhyphen"/>nico furore ſurrexerunt, cui flectere genua, &amp; caput ſubmittere debuerant, Nonne ſacris Conciliis ſunt depoſiti, percuſſi Anathemate, pulſi regno, atque imperio? <g ref="char:V">Ʋ</g>t Ladiſtaus,</hi> Leo III. Henricus III. Fredericus II. Conſtan<g ref="char:EOLhyphen"/>tinus VI. Conc. t. 14. p. 992. In Orat. Cornelii Epiſcopi Bitontini.</p>
+                  <p>1. <hi>Oportere Jeſuitas in ſuo Generali, ac multo magis in quovis Pontifice Romano non hominem erroribus obnoxium conſiderare, ſed ipſum Chriſtum, qui eſt ſapientia Patris intueri, atque horum vocem excipere, non ſecus ac Chri<g ref="char:EOLhyphen"/>ſti ipſius, qui nec decipi poteſt; nec decipere.</hi>
+                  </p>
+                  <p>2. <hi>Debere eos apud animum ſuum ſtatuere, ſe moveri, ac dirigi à divinâ voluntate &amp; providentiâ, quoquoverſus moventur, ac di<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>iguntur à ſuo Superi<g ref="char:EOLhyphen"/>ore. Maffeius in vita</hi> Loyolae. l. 3. c. 7.</p>
+                  <p>
+                     <hi>Prudentiam eſſe ſolius Imperantis non autem Obedientis virtutem. Sum. Conſtitut. Jeſuit. Regul.</hi> 36.</p>
+                  <p>
+                     <hi>In Colloquio Ratisbon.</hi> Seſſ. 9. p. 282. <hi>&amp; <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>88. confidenter aſſerunt Je<g ref="char:EOLhyphen"/>ſuitae, Populum ita ſubjectum eſſe Regimini Praepoſitorum ſuorum, ut ſi illi in aliquo dubio definiendo errarint, populus vi Regiminis errare ſimul poſſet, imò deberet.</hi>
+                  </p>
+                  <p>Theſe as a few of thoſe multitudes of Teſtimonies and Authorities which might be cited under this head, he who deſires more of the par<g ref="char:EOLhyphen"/>ticulars ſhall need only to conſult the Bull of <hi>Pius</hi> IV. <hi>Conc. Trident.</hi> p. 944, 945 946. <hi>Con. t. 14. Anno</hi> 1564. where the Errors alluded to in this part of our continued diſcourſe, are with many others reckon'd up to our hand, and confirm'd by the Pope as Articles of Faith, and as ſuch to be profeſſed by every one therein concern'd.</p>
+               </note> 
+               <hi>Govern<g ref="char:EOLhyphen"/>ment</hi>
+               <pb n="12" facs="tcp:93187:10"/> in the World? The wreſting the Scepter out of the Princes hand, which God Himſelf
+<pb n="13" facs="tcp:93187:10"/> put there? And giving ſuch <hi>Laws</hi> and <hi>Rules</hi> of Obedience as are utterly inconſiſtent with all <hi>Civil Power!</hi> And, as if this were not e<g ref="char:EOLhyphen"/>nough, wreſting the Scepter out of Gods own hand too? That greateſt <hi>Royalty</hi> of his Crown, to forgive ſins; by giving that abſurd Licence, and impunity to all manner of Tranſgreſſi<g ref="char:EOLhyphen"/>ons, which he were <hi>not God,</hi> muſt forfeit <hi>the Holineſs,</hi> and <hi>Juſtice of the Divine Nature,</hi> ſhould he permit? Again, Is there any Prerogative of Heaven equal to the <hi>Infallibility</hi> they uſurp? Or can any thing reconcile the <hi>Infallibility</hi> they pretend to, with the many <hi>Contradictions</hi> their Religion defends!</p>
+            <p>'Twould be no difficulty to demonſtrate, that <hi>they</hi> who ſo far depoſe <hi>Chriſt</hi> in his <hi>Kingly Office,</hi> as to ſet up another in his ſtead, to <hi>diſ<g ref="char:EOLhyphen"/>penſe with his Laws,</hi> and <hi>give new Rules and mea<g ref="char:EOLhyphen"/>ſures</hi> of Obedience <hi>to his Subjects.</hi>
+            </p>
+            <p>That <hi>they</hi> who ſo far evacuate his <hi>Prophetick Office,</hi> as in fact at leaſt to deny, that <hi>he led his Apoſtles into all Truth,</hi> as appears by their Doctrines concerning <hi>Civil Powers</hi> and <hi>ſubmiſ<g ref="char:EOLhyphen"/>ſions</hi> due to them; according to which, what was to be taught and allowed in their Times, when the Chriſtians had no Force to oppoſe them, is not true Goſpel now.</p>
+            <p>That they who ſo far depreſs him in his <hi>Prieſtly Office</hi> too, as to joyn <hi>new Mediators, and
+<pb n="14" facs="tcp:93187:11"/> Interceſſors with</hi> him: to find out <hi>new Saviours,</hi> and <hi>new merit,</hi> whereby men may be juſtified: Or to take it, in their own language, they, who in <hi>Conſecrating the Hoſt</hi> put it in the Pow<g ref="char:EOLhyphen"/>er of the Prieſt <hi>to make his God,</hi> and moſt blaſ<g ref="char:EOLhyphen"/>phemouſly give him the ſame attributes, we aſcribe to the great <hi>Creator of all things:</hi> I ſay, 'twould certainly be no difficulty to demon<g ref="char:EOLhyphen"/>ſtrate, that, they, who do this, can have no deſign, but to deſtroy all <hi>Foundations:</hi> to ba<g ref="char:EOLhyphen"/>niſh <hi>God</hi> and <hi>Religion</hi> out of the World, and according to the profeſt practice of ſome a<g ref="char:EOLhyphen"/>mong them, who have been the moſt Zea<g ref="char:EOLhyphen"/>lous in making Proſelytes, firſt to make men <hi>Atheiſts,</hi> that they may thereby be the better diſpos'd to be fit Converts to <hi>their Faith.</hi>
+            </p>
+            <p>It cannot be expected I ſhould upon this Occaſion run through all the <hi>Artifices</hi> of ſuch men to give ſucceſs too their miſchiefs: No, the <hi>Myſtery of Iniquity</hi> is too hidden to be ſo eaſily diſcover'd; only for the Riſe of all 'twill be ſufficient to obſerve, that 'tis the ſame <hi>Malice</hi> and <hi>Envy,</hi> which inſpiaes the <hi>Devil</hi> and his <hi>wicked Inſtruments:</hi> That 'tis the <hi>common Intereſt</hi> both have againſt <hi>Chriſt</hi> and his <hi>Mem<g ref="char:EOLhyphen"/>bers,</hi> the <hi>Enmity</hi> which was begun in <hi>Heaven itſelf</hi> by the <hi>Apoſtacy of</hi> Lucifer <hi>and his Adhe<g ref="char:EOLhyphen"/>rents,</hi> who rebelled againſt <hi>God</hi> and his <hi>Go<g ref="char:EOLhyphen"/>vernment there;</hi> and 'tis not at all to be admired
+<pb n="15" facs="tcp:93187:11"/> If they have been ſtill propagating the <hi>ſame</hi> in all the ſucceſſive <hi>Treaſons</hi> and <hi>Rebellions</hi> a<g ref="char:EOLhyphen"/>gainſt his <hi>Vicegerents</hi> to this day.</p>
+            <p>No wonder that the <hi>beſt of Governments</hi> have been always moſt expoſed to their <hi>Ma<g ref="char:EOLhyphen"/>lice,</hi> when the <hi>Tongues</hi> that are ſo <hi>keen</hi> againſt them have been as <hi>ſharply whetted</hi> againſt the <hi>Juſtice of Divine Providence;</hi> an effectual in<g ref="char:EOLhyphen"/>ſtance whereof, we have <hi>Ezekiel</hi> xviii. <hi>verſe 2. and</hi> 25. Where the blaſphemous <hi>Jews</hi> in their affliction ſtick not to charge their <hi>Grievances</hi> on <hi>God</hi> himſelf: not conſidering that 'twas not the <hi>Fathers eating the ſour Grapes</hi> (as they moſt impiouſly apply the Proverb there) but the <hi>Childrens chewing them,</hi> (as I may ſay) <hi>after them,</hi> I mean <hi>their following their ill exam<g ref="char:EOLhyphen"/>ple,</hi> which <hi>ſet their Teeth on edge:</hi> Not the <hi>Inequality of Gods ways,</hi> (as they had Atheiſti<g ref="char:EOLhyphen"/>cally ſuggeſted) but <hi>that Iniquity of their own,</hi> which preſt ſo heavy upon them.</p>
+            <p>3. And this one would think, (which was the laſt thing we propos'd to ſpeak to under this Head) ſhould be ſufficient to convince the wicked of the <hi>Folly</hi> of all their ill Practi<g ref="char:EOLhyphen"/>ces, that as 'tis from themſelves, that all theirs, and the <hi>Publick's Miſchief</hi> ariſe, ſo that they cannot but expect they ſhould <hi>return on their own head.</hi>
+            </p>
+            <pb n="16" facs="tcp:93187:12"/>
+            <p>For, beſides that all <hi>Wickedneſs</hi> in its own<note place="margin">
+                  <hi>Res eſt pro<g ref="char:EOLhyphen"/>fecto ſtulta nequitiae modus.</hi> Jer. vi. 7. Job xv. 16.</note> nature is <hi>unbounded</hi> and <hi>infinite;</hi> ſuch the <hi>over<g ref="char:EOLhyphen"/>flowing of theſe waters</hi> (as the Scripture often compares them) that he who once pulls <hi>up the Sluces</hi> cannot aſſure himſelf that he ſhall not be ſwept away <hi>in the common Inundation;</hi> he that <hi>removes the Hedg,</hi> as the <hi>Jews</hi> ſtile <hi>the Law,</hi> cannot be ſecure, that he ſhall never ſuffer by the Treſpaſs: Beſides, I ſay, that this is the <hi>Natural reſult of all wickedneſs,</hi> as ſuch, that the ſinner himſelf can ſet no bounds to it; how can they, who are ſo forward to drudge in the ſervice of the <hi>Devil,</hi> but think that that <hi>Apollyon, or deſtroyer,</hi> as he is called <hi>Revel.</hi> ix. 11. will be as ready to ſtir up others to practiſe the ſame, or greater <hi>Miſchiefs</hi> on themſelves?</p>
+            <p>Can they conſider that the <hi>Change</hi> they drive at, is in that <hi>variable Subject</hi> (for ſuch are the <hi>people,</hi> ſuch are all <hi>human Affairs</hi>) which is ſtill capable of <hi>new alterations!</hi> And can they hope that the ſame <hi>inconſtancy</hi> they make uſe of in them, may not be turn'd to their own Ruin? Or can they reaſonably expect that the <hi>various Temper and Complexion of the multi<g ref="char:EOLhyphen"/>tude,</hi> (who ſeldom know what they would have) ſhould juſt jump with their preſent de<g ref="char:EOLhyphen"/>ſigns? Or to take the meaſure by themſelves, have their own deſigns, their own counſels, been, or will they always be, what they now are?</p>
+            <pb n="17" facs="tcp:93187:12"/>
+            <p>Or are they ſure to over-reach the <hi>Cunning of others,</hi> who know, as well as themſelves, how to make <hi>a ſhew of</hi> one thing, whilſt they deſigne <hi>quite another?</hi> Whoſe <hi>Craft,</hi> and <hi>Subtilty</hi> 'tis to carry on men by degrees to what they never intended? And in a quite different way of Policy, <hi>under the very Guiſe of Religion, and Holineſs,</hi> to outdoe them in all they contrive againſt the Publick; like what we read of the <hi>Adverſaries of</hi> Judah <hi>and</hi> Benjamin, <hi>Ezra,</hi> 4. 2. who know how to <hi>ruine the Tem<g ref="char:EOLhyphen"/>ple, by building with them,</hi> by ſeeming to be in the very work, which 'tis their chief purpoſe <hi>to hin<g ref="char:EOLhyphen"/>der,</hi> and under the <hi>glorious pretence of Reformation there,</hi> of cutting off only <hi>what's luxuriant, or peccant,</hi> in <hi>Church</hi> and <hi>State,</hi> ſo to <hi>prune the Tree</hi> till at laſt they cut it up <hi>Root and Branch.</hi>
+            </p>
+            <p>Or were they ſure that none of theſe things would attend their <hi>wicked purpoſes;</hi> That, <hi>when they bend the bowe, and make ready the Arrow upon the ſtring,</hi> there were none could <hi>outſhoot</hi> them at their own <hi>Mark:</hi> none, who could outgoe them in the baſe and unmanly <hi>pleaſures</hi> of <hi>delighting in</hi> Miſchief: None, who would contend with them for the Reſemblance and likeneſs they bear to the Devil? I ſay, were they ſure of all this, yet can they ſet bounds too to the <hi>Juſtice of</hi> Divine Providence? Are they well adviſed that <hi>He</hi> nei<g ref="char:EOLhyphen"/>ther <hi>can</hi> nor <hi>will infatuate thier Counſels?</hi> That <hi>He</hi> who made <note n="a" place="margin">Exod. 1.</note> 
+               <hi>Pharaoh,</hi> notwithſtanding all his
+<pb n="18" facs="tcp:93187:13"/> proud Boaſts, <hi>know who the Lord was, that he ſhould obey him:</hi> He, who put his <note n="b" place="margin">2 King. 19. 28.</note> 
+               <hi>hook in the Noſe of Sen<g ref="char:EOLhyphen"/>nacherib,</hi> and his mighty Hoſte; He, who in de<g ref="char:EOLhyphen"/>ſpite of all their Enemies, made the <hi>Jews</hi> ſo often to wax ſtronger under the Oppreſſion, whatever <hi>the Tumult of the People,</hi> whatever, as the wicked Multitude is in the <note n="c" place="margin">Pſ. 65. 7.</note> Pſalms compared to them, the <hi>Noiſe of the Seas,</hi> and the <hi>Noiſe of their Waves,</hi> that <hi>He,</hi> who <note n="d" place="margin">Job. 38. 10, 11.</note> 
+               <hi>ſets bounds to</hi> the Sea, cannot ſay to <hi>theſe proud Billows, hitherto ſhall ye come, and no farther.</hi>
+            </p>
+            <p>I have done with the firſt Head, which was to con<g ref="char:EOLhyphen"/>ſider, 1. the <hi>Foundations the wicked are ſoſolici<g ref="char:EOLhyphen"/>tous to deſtroy, in the miſchiefs they deſign againſt the Righteous,</hi> with, 2. <hi>what the Intereſt and true grounds are, which move them to ſuch attempts,</hi> and, 3. <hi>Their great Folly in ſuch their deſigns:</hi> I proceed to the ſecond, <hi>viz.</hi>
+            </p>
+            <p>2. <hi>That in theſe deſigns of the Wicked againſt the Righteous, all that the Righteous can do, is to truſt in God.</hi>
+            </p>
+            <p>And that implies theſe two things.</p>
+            <p n="1">1. A relying upon him for ſafety and delive<g ref="char:EOLhyphen"/>rance.</p>
+            <p n="2">2. A behaving themſelves ſo towards Him in whom they truſt, as to do nothing whereby to put themſelves out of his Protection.</p>
+            <p>1. In all the Deſigns of the Wicked againſt the Righteous, it is the Duty of the Righteous to rely
+<pb n="19" facs="tcp:93187:13"/> upon God only for ſafety and deliverance, and that they will find they have great reaſon to do, as they conſider how many ways their <hi>gra<g ref="char:EOLhyphen"/>cious God</hi> is, as I may ſay, obliged to deliver them: How
+<list>
+                  <item>His <hi>Holineſs,</hi>
+                  </item>
+                  <item>His <hi>Power,</hi>
+                  </item>
+                  <item>His <hi>Omniſcience,</hi>
+                  </item>
+                  <item>His <hi>Juſtice,</hi>
+                  </item>
+               </list> are all concern'd in the <hi>Protection of the Righteous.</hi>
+            </p>
+            <p>1. God is in <hi>his Holineſs</hi> concern'd for the ſafety of the Righteous; and that whether by his Holineſs we underſtand the <hi>Purity of his Eſ<g ref="char:EOLhyphen"/>ſence,</hi> or <hi>of his Religion:</hi> The <hi>Immaculate Perfe<g ref="char:EOLhyphen"/>ctions</hi> of his own Nature, or the <hi>Imitation of theſe</hi> he requires from all who ingage in his ſervice; agreeable to what is ſo particularly urged in the words immediately after the Text, of <hi>his being in his holy Temple.</hi>
+            </p>
+            <p>For how can we imagine, that <hi>He</hi> who is him<g ref="char:EOLhyphen"/>ſelf of <hi>the greateſt Purity,</hi> ſhould not favour thoſe who endeavour to make good the <hi>Image and ſi<g ref="char:EOLhyphen"/>militude of God in which they were made,</hi> by <hi>clean<g ref="char:EOLhyphen"/>ſing themſelves,</hi> as the Apoſtle expreſſes it, 2 <hi>Cor. 7. 1. from all filthineſs of fleſh and ſpirit.</hi>
+            </p>
+            <p>Can there be any thing more <hi>acceptable</hi> to the <hi>Divine Being,</hi> than to ſee ſuch a <hi>Reſemblance</hi> of his <hi>own perfections</hi> in his Creature?</p>
+            <p>Or with reference to his <hi>Religion,</hi> to be exer<g ref="char:EOLhyphen"/>cis'd in his <hi>holy Temple,</hi> can there be any thing
+<pb n="20" facs="tcp:93187:14"/> more <hi>reaſonable,</hi> than for them to expect the <hi>Bleſ<g ref="char:EOLhyphen"/>ſings of the Temple,</hi> who are ſo faithful to attend its <hi>Worſhip?</hi>
+            </p>
+            <p>Was not this <hi>the place</hi> towards which, under the Law, <hi>his eyes were open'd night and day?</hi> as we read, 1 <hi>Kings 8. 29. the place where he put his Name?</hi> where <note n="a" place="margin">Pſ. 26. 8.</note> 
+               <hi>his honour was ſaid to dwell? the place</hi> 
+               <note n="b" place="margin">King. 1. 8. 30.</note> 
+               <hi>towards which</hi> whoever, and in what condition ſoever, did but <hi>pray,</hi> was ſure to be heard <hi>in Heaven?</hi> So that whatever were <hi>the Treſpaſs between man and man,</hi> 
+               <note n="c" place="margin">ibid. <hi>v.</hi> 31.</note> here was <hi>the place</hi> to decide it: whatever the <hi>affliction</hi> under which they were, whether <hi>led Captive</hi> into a ſtrange Land, or puniſh by <hi>Famine, Sword,</hi> or a<g ref="char:EOLhyphen"/>ny other of <hi>God's juſt Judgments</hi> for their ſin, in their own; if they had but thoughts of return<g ref="char:EOLhyphen"/>ing to his <hi>Religion and Service,</hi> He who <hi>had ſet apart the godly to himſelf,</hi> as 'tis <hi>Pſalm</hi> 4. 3. could not but in the defence of his own <hi>Name</hi> and <hi>Ho<g ref="char:EOLhyphen"/>nour,</hi> which he had made to dwell there, likewiſe <hi>diſtinguiſh them in his care,</hi> and uphold them in <hi>the work</hi> to which he called them.</p>
+            <p>Such was the <hi>Protection, the Holineſs</hi> to which they were <hi>ſeparated,</hi> then gave: ſuch the <hi>ſecurity of flying to the Altar,</hi> that the very <hi>Oblation</hi> of their <hi>Wills,</hi> their true and earneſt deſire of appearing there before God, was a <hi>Sacrifice</hi> he would not refuſe.</p>
+            <p>2. A ſecond Reaſon why the Righteous ſhould
+<pb n="21" facs="tcp:93187:14"/> look upon it as the only Remedy againſt the Treatment they meet with from the Wicked, to <hi>put their truſt in God,</hi> is, becauſe of the <hi>honour of his Power concern'd in their deliverance.</hi>
+            </p>
+            <p>'Tis with reſpect to his <hi>Soveraign Dominion and Rule</hi> over all, that <hi>his Throne</hi> is in the next words ſaid <hi>to be in Heaven:</hi> and certainly that is not <hi>a Throne,</hi> that can <hi>be eſtabliſht by iniquity.</hi> Heaven, as 'tis a place where no <hi>injuſtice can enter,</hi> ſo much leſs can it <hi>prevail againſt it;</hi> nothing can reſiſt the <hi>Power</hi> and <hi>Supremacy</hi> of him who ſits there.</p>
+            <p>
+               <hi>Changes, Alterations,</hi> and <hi>Viciſſitudes</hi> may be in things below; but to the <hi>Heaven,</hi> in which his <hi>Throne</hi> is, it belongs only to over-rule, not feel theſe. He who <hi>dwells above,</hi> may for the purpo<g ref="char:EOLhyphen"/>ſes of his <hi>own glory</hi> permit the Cruelty and Op<g ref="char:EOLhyphen"/>preſſion of the Violent, but ſo, that his permit<g ref="char:EOLhyphen"/>ting and converting theſe <hi>to his own glory,</hi> is none of the meaneſt inſtances of <hi>his Power;</hi> that in all the Motions which are made about it, all the Commotions which are made againſt it, yet ſtill his <hi>Throne is in Heaven,</hi> the place of <hi>Bliſs</hi> and <hi>Holineſs;</hi> and they who hope to interrupt the Righteous in either, do but thereby prepare themſelves for a ſeverer Sentence <hi>at this Tribu<g ref="char:EOLhyphen"/>nal:</hi> Which of how great moment muſt it be to the good man, thus to conſider the <hi>over-ruling Power of him in whom he truſts!</hi> that if, as 'tis v. 1.
+<pb n="22" facs="tcp:93187:15"/> the wicked <hi>ſay unto his Soul, flee as a Bird unto your Mountain, Heaven</hi> is that <hi>Mountain</hi> whither he can <hi>flee,</hi> there the <hi>Hills from whence cometh his help,</hi> Pſalm. 121. 1.</p>
+            <p>3. A third Attribute which ought to incou<g ref="char:EOLhyphen"/>rage the Righteous <hi>to truſt in God,</hi> is that of his <hi>Omniſcience;</hi> for ſo the <hi>Pſalmiſt</hi> adds in the ſame verſe, <hi>His eyes behold, and his eye-lids try the Chil<g ref="char:EOLhyphen"/>dren of men.</hi>
+            </p>
+            <p>
+               <hi>Did not God know,</hi> as the <hi>Pſalmiſt</hi> brings in the Wicked making his boaſt againſt the Righteous, <hi>Pſalm</hi> 73. 11. and <hi>were there no knowledge in the moſt High,</hi> there were then ſome reaſon why his people ſhould ſpare ſome of their <hi>over-forward confidence,</hi> and abate of that <hi>ſo full</hi> and <hi>abſolute truſt</hi> they put in him; becauſe whatever <hi>his Ho<g ref="char:EOLhyphen"/>lineſs</hi> is to <hi>deteſt,</hi> whatever <hi>his Power</hi> to <hi>avenge in<g ref="char:EOLhyphen"/>juſtice,</hi> yet what would all this ſignifie, if he had <hi>no privity</hi> of the <hi>Fact?</hi>
+            </p>
+            <p>But then on the contrary, for the <hi>Wicked</hi> as well as the <hi>Righteous</hi> to be always <hi>under his eye,</hi> to be ſeen and detected in their cloſeſt Devices, to have their very <hi>Imaginations</hi> lye open before him, their ſecreteſt Councels, and moſt <hi>hidden works of dark<g ref="char:EOLhyphen"/>neſs</hi> ſtill in the <hi>light of his Countenance,</hi> to have (pardon the lowneſs of the compariſon) as you may have ſometime ſeen in excellent Pictures, where the <hi>Archer</hi> is ſo painted, as in every poſture of the <hi>Beholder</hi> to direct his <hi>Arrow at him,</hi> to have
+<pb n="23" facs="tcp:93187:15"/> I ſay, this <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the Eye of Vengeance</hi> always <hi>aim<g ref="char:EOLhyphen"/>ing at the Offender; Him,</hi> who muſt be his <hi>Judge,</hi> to be ſtill preſent, not only at the <hi>committing,</hi> but the <hi>firſt deſigning</hi> of the Crime, <hi>to ſee, to watch,</hi> and <hi>over-awe</hi> him in every motion; How muſt this be cauſe of joy and tranſport to the Righteous in his greateſt Sufferings, as being hereby aſſur'd that nothing can befall him, as without the <hi>Cog<g ref="char:EOLhyphen"/>nizance,</hi> ſo, which is one ſignification of the <hi>Eye,</hi> without <hi>the Pity and Compaſſion</hi> of his good God: That 'tis <hi>He,</hi> who <hi>knows</hi> and <hi>ſees</hi> all things, who permits the Enemy to deſign againſt him; <hi>He</hi> too, of whoſe <hi>Omniſcience</hi> this muſt be one Ef<g ref="char:EOLhyphen"/>fect; that <hi>he knows what's beſt for him;</hi> that as his <hi>Eye-lids try the Children of men</hi> in general, ſo in particular they try the <hi>Righteous,</hi> as the <hi>Refiner</hi> doth his <hi>beſt</hi> and <hi>moſt valued Mettals,</hi> to bring them more <hi>clean and purged, freer from droſs and dregs</hi> out of the <hi>Fire;</hi> that 'tis only to make them <hi>fitter Objects</hi> for his own <hi>Love</hi> and <hi>Favour;</hi> that whom, with the reſt of Mankind, his <hi>Eye cannot but ſee,</hi> as 'tis Verſe the laſt of the Pſalm, <hi>his Countenance may behold, i. e.</hi> encourage and ap<g ref="char:EOLhyphen"/>prove.</p>
+            <p>4. The laſt Argument I ſhall take notice of in the Pſalm, why in the <hi>Deſigns of the Wicked a<g ref="char:EOLhyphen"/>gainſt the Righteous, all that they can do is to truſt in God,</hi> is, becauſe of the <hi>honour of his Juſtice</hi> likewiſe concerned for them; As, <hi>He whoſe Throne
+<pb n="24" facs="tcp:93187:16"/> is in Heaven, ſits there,</hi> as the juſt recompence of their doings, (<hi>a) to rain Snares, Fire and Brim<g ref="char:EOLhyphen"/>ſtone,</hi>
+               <note place="margin">V. 6.</note> 
+               <hi>and an horrible Tempeſt</hi> on the Wicked.</p>
+            <p>And certainly, if any thing can ſatisfie the <hi>Op<g ref="char:EOLhyphen"/>preſt,</hi> That they ſhall not always be <hi>ſo,</hi> that there will be a time when <hi>Right</hi> ſhall be done them; nothing is more likely to do it, than when they ſhall conſider that God, <hi>the juſt, the holy, the powerful, the Omniſcient Lord</hi> of all, hath reſerved to himſelf the Correction of their Enemies: That however they may at preſent go on ſmoothly in their Wickedneſs, yet, that their Proſperity it ſelf, their moſt Fortunate Miſchiefs, are but their <hi>Snares;</hi> that, as <hi>Solomon</hi> deſcribes the madman, <hi>Prov.</hi> 26. 18. caſting about Firebrands, and ſay<g ref="char:EOLhyphen"/>ing, <hi>am I not in ſport,</hi> yet 'twill not be ſo, when retumed in this <hi>Fire</hi> and <hi>Brimſtone;</hi> when the <hi>Storms</hi> they delight to raiſe here ſhall end in a more <hi>horrible Tempeſt</hi> to themſelves, and the <hi>Cup,</hi> how<g ref="char:EOLhyphen"/>ever they now mix all with jollity, <hi>which is to be their Portion,</hi> ſhall be only that of <hi>everlaſting trembling</hi> and <hi>amazement.</hi>
+            </p>
+            <p>This as to the firſt part of that <hi>Truſt</hi> the Righ<g ref="char:EOLhyphen"/>teous are to put <hi>in the Lord;</hi> as it ſignifies their <hi>relying upon him for ſafety and delive<g ref="char:EOLhyphen"/>rance,</hi> as he is their <hi>Holy,</hi> their <hi>Powerful,</hi> their <hi>Wiſe,</hi> their <hi>Juſt Protector;</hi> the ſecond thing to be conſider'd in this <hi>Truſt,</hi> is,</p>
+            <p>2. <hi>Their behaving themſelves ſo towards the Lord,
+<pb n="25" facs="tcp:93187:16"/> in whom they are upon all theſe forementioned Rea<g ref="char:EOLhyphen"/>ſons to truſt, as to do nothing whereby they may put themſelves out of his Protection.</hi>
+            </p>
+            <p>For that may be the caſe of God's own People: How often did this befall <hi>the Jews,</hi> that <hi>God</hi> caſt them off, and deſerted them? Was it not their ſad Fate, as in all their <hi>Captivities abroad,</hi> ſo in all their <hi>Superſtitions and Idolatries at home?</hi> What was it <hi>gave them</hi> up at any time into the <hi>hand</hi> of their Enemies, but that they firſt delivered <hi>up them<g ref="char:EOLhyphen"/>ſelves</hi> to their <hi>ſins?</hi>
+            </p>
+            <p>And if the Chriſtian ſhall write after this Copy, if they, who have all theſe Reaſons for their <hi>Truſt</hi> and <hi>Faith</hi> in God, ſhall be ſuch <hi>Infidels</hi> in their Du<g ref="char:EOLhyphen"/>ty, as to forget that they are the <hi>Righteous</hi> only, who have any title in them; if, as 'tis <hi>Hoſea</hi> 10. 2. they will thus <hi>be found faulty,</hi> be ſuch an <hi>empty Vine,</hi> as the Alluſion there is, <hi>v.</hi> 1. as <hi>to bring forth</hi> Fruit <hi>on<g ref="char:EOLhyphen"/>ly to themſelves, none to that God</hi> from whom they expect this <hi>ſafety;</hi> what then, as it follows, <hi>v. 3. ſhould a King do unto them?</hi> Nay, what can God himſelf do unto, or for them, if they put it out of the Power of either to be their Saviour?</p>
+            <p>In vain do men talk either of the Excellency of the <hi>Government</hi> or <hi>Laws</hi> they live under, and the Protection they look for thence, if they deſpiſe <hi>both.</hi>
+            </p>
+            <p>In vain to boaſt the <hi>Religion</hi> we profeſs, if we are not reſolv'd to live up to the <hi>Rules of</hi> it.</p>
+            <pb n="26" facs="tcp:93187:17"/>
+            <p>In vain to hope for <hi>ſecurity</hi> from the <hi>Altar,</hi> if we give not <hi>that</hi> that ſame Priviledge we pretend to by it.</p>
+            <p>
+               <hi>To ſpeak plain:</hi> We live in Times of great <hi>dif<g ref="char:EOLhyphen"/>ficulties</hi> and <hi>danger,</hi> wherein every one would be glad to provide for his own <hi>Peace;</hi> but what are the <hi>Methods</hi> we take to <hi>procure</hi> it?</p>
+            <p>We can talk with great <hi>noyſe</hi> and <hi>zeale of</hi> and <hi>for</hi> the <hi>Proteſtant Religion,</hi> but do our <hi>Actions</hi> and <hi>Tongues</hi> ſpeak the ſame <hi>Language?</hi> What is it we inveigh againſt in <hi>that Church</hi> whoſe <hi>Errors</hi> we ſeem ſo much to deteſt? Is it not that <hi>Primacy of the Pope,</hi> which ſets up <hi>above all that is called God?</hi> Is it not <hi>that Infallibility</hi> whereby we think he too <hi>arrogantly aſſumes</hi> the <hi>determining matters of Faith and Religion?</hi> and what are we advantaged by the <hi>Invective,</hi> if every private perſon (ſuch is the Ungoverned Licenſe of the Age we live in) <hi>uſurps theſe to himſelf?</hi>
+            </p>
+            <p>I am not ſo rigid to deny every man the uſe of his <hi>own judgment;</hi> the exerciſe of thoſe <hi>diſcern<g ref="char:EOLhyphen"/>ing Faculties</hi> he is endowed with, as a <hi>reaſonable Crea<g ref="char:EOLhyphen"/>ture;</hi> but ſure 'tis a <hi>great</hi> difference between being <hi>wiſe to Sobriety,</hi> and impoſing every <hi>Conceit</hi> and<note place="margin">Rom. 12. 3. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>whimſey of our own</hi> upon the <hi>Publick:</hi> A very vaſt <hi>difference</hi> between <hi>ſubmitting to God's Providence</hi> in the <hi>Government</hi> he hath ſet over us, and being e<g ref="char:EOLhyphen"/>very day <hi>preparing for,</hi> I know not what <hi>Alterations</hi> in <hi>Church</hi> and <hi>State.</hi>
+            </p>
+            <pb n="27" facs="tcp:93187:17"/>
+            <p>Men may, if they pleaſe, call this <hi>truſting in the Lord, and committing their</hi> Religion <hi>to his</hi> Providence, but would it not do very well to take ſome of the <hi>Rules of that</hi> Religion along with them? to be<g ref="char:EOLhyphen"/>think themſelves of that
+<list>
+                  <item>Peaceable,</item>
+                  <item>Meek,</item>
+                  <item>Humble,</item>
+                  <item>Charitable Temper,</item>
+               </list> which ought to be the Badg of every good Chriſtian, and if they do ſo, they would then find, <hi>That to truſt</hi> in <hi>the Lord,</hi> were to <hi>wait upon him in his own way,</hi> to expect ſafety and deliverance only in do<g ref="char:EOLhyphen"/>ing their Duty.</p>
+            <p>If in <hi>Power,</hi> then to conſider that the <hi>Founda<g ref="char:EOLhyphen"/>tions</hi> they are to maintain, are the LAWS and RELIGION.</p>
+            <p>If in the <hi>Capacity of Subjects,</hi> what they are then to contribute <hi>to this,</hi> is to be Obedient to <hi>both.</hi>
+            </p>
+            <p>Not to think themſelves all <hi>Princes,</hi> any other<g ref="char:EOLhyphen"/>wiſe<note place="margin">
+                  <hi>a</hi> Gen. 32. 24.</note> than <hi>Iſrael</hi> was by (<hi>a) wreſtling with God in Prayer,</hi> by appplying to him in their daily Devo<g ref="char:EOLhyphen"/>tions for <hi>his Bleſſing</hi> on the <hi>Publick,</hi> and endea<g ref="char:EOLhyphen"/>vouring to make their <hi>Devotions effectual,</hi> by ſo living that themſelves be not the <hi>Curſe of it:</hi> That for their <hi>Sins;</hi> their <hi>Diſcontents, Murmurings,</hi> and <hi>Repining;</hi> for their <hi>Diſobedience,</hi> and <hi>Injuſtice;</hi> their <hi>Intemperance,</hi> and <hi>Wantonneſs;</hi> their <hi>Prophaneneſs</hi> and <hi>Irreligion,</hi> they
+<pb n="28" facs="tcp:93187:18"/> do not provoke God to give us up to thoſe <hi>Judg<g ref="char:EOLhyphen"/>ments</hi> they are ſo forward to charge upon the <hi>miſcarriages</hi> of others.</p>
+            <p>That if it ſhould be the <hi>Irrepairable Fate</hi> of this Nation (which the good Lord of his Mercy avert, I hope thoſe <hi>warnings</hi> he hath given and is ſtill giving, will have that effect upon us, that we may timely apply to him to do it) that, I ſay, if it ſhould be the <hi>Irrepairable Fate</hi> of the Nation, to have its <hi>Foundations deſtroy'd,</hi> as the Old Tran<g ref="char:EOLhyphen"/>ſlation reads it, we might be able to put the Que<g ref="char:EOLhyphen"/>ſtion, <hi>What hath the Righteous done?</hi> and to an<g ref="char:EOLhyphen"/>ſwer it in the <hi>Innocent and Inoffenſive Carriage of good men;</hi> thoſe, for <hi>whom</hi> God will find <hi>Mercy</hi> in the <hi>midſt of his Judgments,</hi> that there is <hi>nothing they have done</hi> to bring on the <hi>Ruine:</hi> No, they are the <hi>good men</hi> who are the Safeguard of them, amongſt whom they live; God could not <hi>deſtroy</hi> 
+               <note n="a" place="margin">Gen. 19.</note> 
+               <hi>Sodom</hi> till <hi>Righteous Lot</hi> was departed thence: It may be the caſe of a Land, as 'tis threatned <hi>Ezekiel</hi> 14. 14. that though <hi>Noah, Daniel</hi> and <hi>Job</hi> were in it (and I truſt in God there are many ſuch <hi>in this Nation, in this City) they ſhould deliver but their own Souls by their righteouſneſs.</hi>
+            </p>
+            <p>However, let that be our <hi>ſtudy,</hi> that we may think at leaſt of <hi>delivering our own Souls;</hi> 'tis worth our <hi>care,</hi> were there no <hi>benefit</hi> to redound to the <hi>Pub<g ref="char:EOLhyphen"/>lick</hi> by it; worth our care, if <note n="b" place="margin">1 Pet. 4. 17.</note> 
+               <hi>Judgment muſt begin at the houſe of God,</hi> that the <hi>ſin</hi> which brings it on
+<pb n="29" facs="tcp:93187:18"/> 
+               <hi>begin not there:</hi> That when it ſhall be ask'd, <hi>What have the Righteous done?</hi> only <hi>our Prayers and In<g ref="char:EOLhyphen"/>terceſſions</hi> for the good of the Nation:
+<list>
+                  <item>Our Litanies
+<list>
+                        <item>
+                           <hi>for Mankind,</hi>
+                        </item>
+                        <item>
+                           <hi>for our Enemies,</hi>
+                        </item>
+                        <item>
+                           <hi>for them who would deſtroy all Foundations.</hi>
+                        </item>
+                     </list>
+                  </item>
+                  <item>Our <hi>meek and charitable Behaviour to all,</hi>
+                  </item>
+                  <item>Our <hi>Bleſſing</hi>
+                     <list>
+                        <item>
+                           <hi>them that Curſe us,</hi>
+                        </item>
+                        <item>
+                           <hi>doing good to them that hate us,</hi>
+                        </item>
+                        <item>
+                           <hi>praying for them that deſpitefully uſe</hi>
+                           <note place="margin">Mat. 5. 44.</note> 
+                           <hi>and perſecute us.</hi>
+                        </item>
+                     </list>
+                  </item>
+                  <item>Our <hi>Conſtancy to the Reform'd Faith,</hi>
+                  </item>
+                  <item>Our <hi>Renouncing the Principles and Errours of our Adverſaries.</hi>
+                  </item>
+                  <item>Our <hi>Duty and Loyalty to our Superiours,</hi>
+                  </item>
+                  <item>Our <hi>equal Deteſtation of Sacriledge and Ido<g ref="char:EOLhyphen"/>latry:</hi>
+                  </item>
+               </list> That theſe, with all thoſe other Chriſtian <hi>Vertues</hi> and <hi>Graces,</hi> which we profeſs and teach, may be the Anſwer we have to return to ſuch a <hi>Queſtion.</hi>
+            </p>
+            <p>And then I am ſure, whatever become of <hi>the Foundations, ſi fractus illabatur Orbis,</hi> ſhould the World it ſelf daſh in pieces about us, <hi>impavidos ferient ruinae,</hi> the Ruines that ſtrike upon us, could not touch <hi>our Courage and Reſolution,</hi> any more than <hi>our Innocence:</hi> No, there's a <hi>firmer Bottom</hi> on which all ſtands, even the <note n="a" place="margin">
+                  <hi>Iſa. 26. 4. For ſo, what in the common reading is</hi> everlaſting ſtrength, <hi>is to be render'd according to the Hebrew</hi>
+               </note> 
+               <hi>Rock of Ages, That God,</hi>
+               <list>
+                  <item>whoſe <hi>Holineſs,</hi>
+                  </item>
+                  <pb n="30" facs="tcp:93187:19"/>
+                  <item>whoſe <hi>Power,</hi>
+                  </item>
+                  <item>whoſe <hi>Omniſcience,</hi>
+                  </item>
+                  <item>whoſe <hi>Juſtice</hi>
+                  </item>
+               </list> will, in his due time, <hi>do us Right:</hi> If not <hi>here,</hi> at leaſt in <hi>that Heaven,</hi> where <hi>his Throne is,</hi>
+            </p>
+            <p>
+               <hi>In that holy Temple,</hi> from whence he now looks down to encourage the <hi>Conflict,</hi> and applaud the <hi>Triumph of our Patience;</hi> and having by what ways he thinks beſt <hi>prov'd</hi> and <hi>prepar'd</hi> us <hi>for himſelf,</hi> will take us up into <hi>that</hi> of <hi>his</hi> and <hi>our Glory.</hi>
+            </p>
+            <closer>To which happy ſtate he in his mercy bring us all, through Jeſus Chriſt our Lord, to whom with the Father and holy Spirit, be praiſe, honour, and Adoration, now and always. Amen.</closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:93187:19"/>
+         </div>
+      </body>
+   </text>
+</TEI>
